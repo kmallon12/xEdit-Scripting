@@ -1,0 +1,25 @@
+Abek Lendrian|[Greeting]|Abak Lendrian. Miner, father, widower.||Neutral|50||Greeting|1|1
+Abek Lendrian|[Greeting]|Welcome, traveler. What brings you to these mines?||Neutral|50||Greeting|2|1
+Abek Lendrian|[Greeting]|If you mine anything of value, it's yours to keep.||Neutral|50||Greeting|3|1
+Abek Lendrian|[Greeting]|My back's acting up...|in pain|Neutral|50||Greeting|4|1
+Abek Lendrian|How long have you been working here?|I've been working these mines ever since the Forebears set foot in this place!||Happy|20|HowLong|HowLong|1|1
+Abek Lendrian||Back then, this place was a frontier. Well, in some ways, it still is.||Neutral|50|HowLong|HowLong|1|2
+Abek Lendrian|That's impressive. You must be very resilient.|Thanks, stranger! It's always nice to get proper recognition for my diligence.||Happy|50|HowLong|HowLongNice|1|1
+Abek Lendrian||It's taken its toll on me, but I've never once regretted coming here.||Happy|10|HowLong|HowLongNice|1|2
+Abek Lendrian|It's been a while. I bet you're just about ready to hit the retirement home.|Hmph! If you've got nothing nice to say, then don't say anything at all.||Disgust|50|HowLong|HowLongMean|1|1
+Abek Lendrian|Do you have any family?|Yeah, a daughter, back home in Stoudholm. Better keep her far away from a place like this.||Neutral|50|Family|Family|1|1
+Abek Lendrian|You mentioned a daughter. Does she live alone?|My mom and pop look after her. She's too young to be by herself.||Neutral|50|Daughter|Daughter|1|1
+Abek Lendrian|Is there anything you need help with?|I suppose a fighter like you could help me. ||Neutral|50|Pickaxe|Pickaxe|1|1
+Abek Lendrian|Is there anything you need help with?|I suppose a mage like you could help me.||Neutral|50|Pickaxe|Pickaxe|2|1
+Abek Lendrian|Is there anything you need help with?|I suppose a stealthy one like you could help me.||Neutral|50|Pickaxe|Pickaxe|3|1
+Abek Lendrian||I've lost my pickaxe. Could you find it for me?||Neutral|50|Pickaxe|PickaxeContinue|1|1
+Abek Lendrian|[Goodbye]|Watch yourself in these mines, now.||Neutral|50||Goodbye|1|1
+Abek Lendrian|[Goodbye]|Don't be a stranger, stranger.||Neutral|50||Goodbye|2|1
+Abek Lendrian|[Idle]|Oh my darlin', oh my darlin', oh my darlin' Clementine...|singing|Neutral|50||Idle|1|1
+Abek Lendrian|[Idle]|What I wouldn't give for some brandy right now...||Neutral|50||Idle|2|1
+Abek Lendrian|[Force Greet]|You there! What took you so long? Corsairs have started attacking the mine while you were looking for my pickaxe!||Surprise|100|PickaxeForce|PickaxeForce|1|1
+Abek Lendrian|How was I supposed to know this would happen?|Well, no matter. You can help me fight them off now. I'll take back my pickaxe as a weapon.||Surprise|20|PickaxeForce|PickaxeForceHelp|1|1
+Abek Lendrian|[Blocking]|You're back! And the rustle is unmistakable -- you're carrying my pickaxe!||Surprise|50|PickaxeBlock|PickaxeBlock|1|1
+Abek Lendrian|That's right. Here you go.|By Zenithar, you've found it! Thank you so much, friend. Here is your reward.||Happy|50|PickaxeBlock|PickaxeBlockGive|1|1
+Abek Lendrian|[Goodbye]|Thanks again for finding my pickaxe!||Happy|20||Goodbye|3|1
+Abek Lendrian|[Fleeing]|Don't hurt me!|running for your life|Fear|100||Flee|1|1
