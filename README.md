@@ -5,16 +5,12 @@ Place `Skywind - Import dialogue for quest.pas` into your `\xEdit\Edit Scripts\`
 
 This script will use two selectable text files, one that contains all dialogue to import and another that maps speaker name to form ID.
 
-Each row of the dialogue text file corresponds to one segment of a topic info. Must be `|`-delimited as:
-
-`Speaker Name|Prompt|Response|Acting Note|Emotion|Value|Branch|Topic|Info #|Segment #`
-
+Each row of the dialogue text file corresponds to one segment of a topic info. Must be `|`-delimited as:  
+`Speaker Name|Prompt|Response|Acting Note|Emotion|Value|Branch|Topic|Info #|Segment #`  
 where "Info #" is the number of the topic info inside the topic, and "Segment #" is the response number inside the topic info. It is important that the dialogue you are importing does not use `|` anywhere. Some fields (e.g. Branch and Acting Note) may be left blank. 
 
-The speaker map should be a ";"-delimited text file that maps the speaker names to those NPCs' form IDs:
-
-`Speaker Name;Form ID`
-
+The speaker map should be a ";"-delimited text file that maps the speaker names to those NPCs' form IDs:  
+`Speaker Name;Form ID`  
 Each row is a different speaker. "Speaker Name" should match what is used in the imported dialogue text file. It's up to the user if you want this to be actual name, something shorthand, editor ID, etc... All that matters is that it is the same between the two text files.
 
 Load the plugin into which to import dialogue, and run the script on the quest object that will hold the imported dialogue. The script will then create the branches, topics, and infos listed in the text file. Only new branches/topics will be used; the script will not find and add to existing branches. If that is needed, import first them move manually in the Creation Kit.
